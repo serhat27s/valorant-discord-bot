@@ -20,7 +20,7 @@ Ein Discord Bot für Valorant Statistiken mit der Henrik Dev API.
 
 1. Clone das Repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/serhat27s/valorant-discord-bot.git
 cd Valorant-Discord_bot
 ```
 
@@ -106,4 +106,5 @@ Dieser Bot verwendet die [Henrik Dev Valorant API](https://docs.henrikdev.xyz/).
 ## Lizenz
 
 MIT
+
 
