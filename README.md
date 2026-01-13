@@ -1,6 +1,6 @@
-# 🎮 Valorant Discord Bot
+# Valorant Discord Bot
 
-A feature-rich Discord bot that provides comprehensive Valorant statistics and leaderboards using the Henrik Dev API. Track your competitive performance, view detailed match history, and compete with your server members!
+A Discord bot that provides Valorant statistics and leaderboards using the Henrik Dev API. Track your competitive performance, view match history, and compete with your discord members.
 
 [![Discord.py](https://img.shields.io/badge/discord.py-2.3.0+-blue.svg)](https://github.com/Rapptz/discord.py)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -8,13 +8,13 @@ A feature-rich Discord bot that provides comprehensive Valorant statistics and l
 
 ## ✨ Features
 
-- **📊 Detailed Player Statistics** - View comprehensive stats from recent competitive matches
+- **📊 Detailed Player Statistics** - View stats from recent competitive matches
 - **🏆 Server Leaderboards** - Compete with other players on your Discord server
 - **🔗 Account Linking** - Link your Valorant account for easier access to your stats
 - **📈 Rank Tracking** - Monitor your current rank, RR, and peak rank
 - **🎯 Match History** - Review your last 10 competitive matches with detailed breakdowns
 - **🌍 Multi-Region Support** - Works across EU, NA, AP, and KR regions
-- **🎨 Rich Embeds** - Beautiful Discord embeds with rank-colored themes
+- **🎨 Embeds** - Discord embeds with rank-colored themes
 
 ---
 
@@ -22,13 +22,12 @@ A feature-rich Discord bot that provides comprehensive Valorant statistics and l
 
 Want to use this bot without hosting it yourself? Click the link below to invite it to your server!
 
-[![Add to Discord](https://img.shields.io/badge/Add%20to%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](YOUR_INVITE_LINK_HERE)
+[![Add to Discord](https://img.shields.io/badge/Add%20to%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)]([YOUR_INVITE_LINK_HERE](https://discord.com/oauth2/authorize?client_id=1424839978742972588&permissions=380104723456&integration_type=0&scope=bot+applications.commands))
 
-> **� Note:** Replace `YOUR_INVITE_LINK_HERE` with your actual bot invite link. You can generate one from the [Discord Developer Portal](https://discord.com/developers/applications) → Your App → OAuth2 → URL Generator.
 
 ---
 
-## �📋 Commands
+## 📋 Commands
 
 ### 🔗 Account Management
 | Command | Description |
@@ -143,8 +142,8 @@ Want to run your own instance of this bot? Follow the guide below!
 
 ### Option A: Clone with Git
 ```bash
-git clone https://github.com/yourusername/Valorant-Discord_bot.git
-cd Valorant-Discord_bot
+git clone https://github.com/serhat27s/valorant-discord-bot.git
+cd valorant-discord-bot
 ```
 
 ### Option B: Download ZIP
@@ -325,20 +324,3 @@ The bot stores linked accounts locally in `linked_accounts.json`. This file cont
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Credits
-
-- Valorant statistics powered by [Henrik Dev API](https://docs.henrikdev.xyz/)
-- Built with [Discord.py](https://github.com/Rapptz/discord.py)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/Valorant-Discord_bot/issues).
-
-## 📬 Support
-
-If you have any questions or need help, please open an issue on GitHub.
-
----
-
-**Made with ❤️ for the Valorant community**
