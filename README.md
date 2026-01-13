@@ -38,53 +38,15 @@ Want to use this bot without hosting it yourself? Click the link below to invite
 ### 📊 Player Stats
 | Command | Description | Parameters |
 |---------|-------------|------------|
-| `/stats [name] [tag] [region]` | Show overview stats from last 10 ranked matches | Optional if account is linked |
-| `/matches [name] [tag] [region]` | Display last 10 ranked matches with detailed stats | Optional if account is linked |
-| `/rank [name] [tag] [region]` | Show current rank, RR, and peak rank with MMR tracking | Optional if account is linked |
+| `/stats [name] [tag] [region]` | Show overview stats from last 10 ranked matches | [![Image from Gyazo](https://i.gyazo.com/2e84003b32001e863d5cd657ca65658a.png)](https://gyazo.com/2e84003b32001e863d5cd657ca65658a) |
+| `/rank [name] [tag] [region]` | Show current rank, RR, and peak rank with MMR tracking | [![Image from Gyazo](https://i.gyazo.com/4b3cad23534157baa14a6b45c0f8a26f.png)](https://gyazo.com/4b3cad23534157baa14a6b45c0f8a26f) |
+| `/matches [name] [tag] [region]` | Display last 10 ranked matches with detailed stats | [![Image from Gyazo](https://i.gyazo.com/36e311c5c0c99da4bf18e9ff1ec0bf7b.png)](https://gyazo.com/36e311c5c0c99da4bf18e9ff1ec0bf7b) |
 
 ### 🏆 Server Features
 | Command | Description |
 |---------|-------------|
 | `/leaderboard` | Display server-wide leaderboard of all linked accounts |
 
-## � Usage Examples
-
-### Linking Your Account
-```
-/linkacc name:PlayerName tag:1234 region:eu
-```
-After linking, you can use all stat commands without parameters!
-
-### Viewing Stats
-```
-/stats
-```
-Shows:
-- Average Damage per Round (ADR)
-- Kill/Death/Assist (KDA) ratio
-- Headshot percentage
-- Win rate
-- Total kills/deaths/assists
-
-### Checking Match History
-```
-/matches
-```
-Displays your last 10 competitive matches with:
-- Map and agent played
-- Score and result (Win/Loss)
-- Individual performance (K/D/A)
-- RR change
-- Headshot percentage
-
-### Server Leaderboard
-```
-/leaderboard
-```
-Shows all linked accounts ranked by:
-- Current rank tier
-- Ranked Rating (RR)
-- Player name and tag
 
 ## 🌍 Supported Regions
 
@@ -322,5 +284,6 @@ The bot stores linked accounts locally in `linked_accounts.json`. This file cont
 > **Privacy Note:** Account data is stored locally and never shared with third parties.
 
 ## 📝 License
+
 
 This project is licensed under the MIT License - see the LICENSE file for details.
